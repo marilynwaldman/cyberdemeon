@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Button} from 'react-bootstrap'
 
 import logo from './logo.svg';
 
@@ -32,6 +33,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">{this.state.response}</p>
+        <button type="button" class="btn btn-primary">Primary</button>
       </div>
     );
   }
